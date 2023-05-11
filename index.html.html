@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+<body>
+    <div>
+        <h1>Calculator</h1>
+        <input type="text" id="result">
+        <table>
+            <tr>
+                <td>
+                    <button id="b1" onclick="displayData(1)">1</button>
+                </td>
+                <td>
+                    <button id="b1" onclick="displayData(2)">2</button>
+                </td>
+                <td> 
+                     <button id="b1" onclick="displayData(3)">3</button>
+                </td>
+                <td>
+                    <button id="b1" onclick="displayData('/')">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="b1" onclick="displayData(4)">4</button>
+                
+            </td>
+            <td>  
+                <button id="b1" onclick="displayData(5)">5</button>
+            </td>
+            <td>
+                <button id="b1" onclick="displayData(6)">6</button>
+            </td>
+            <td>
+                <button id="b1" onclick="displayData('*')">*</button>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="b1"onclick="displayData(7)">7</button>
+
+                </td>
+                <td> 
+                     <button id="b1" onclick="displayData(8)">8</button>
+                 </td>
+                 <td>
+                    <button id="b1" onclick="displayData(9)">9</button>
+                 </td>
+                 <td>
+                    <button id="b1" onclick="displayData('-')">-</button>
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="b1"onclick="displayData(0)">0</button>
+
+                </td>
+                <td> 
+                     <button id="b1" onclick="allClear()">AC</button>
+                 </td>
+                 <td>
+                    <button id="b1" onclick="displayData('+')">+</button>
+                 </td>
+                 <td>
+                    <button class="b2" onclick="evaluateOper()">=</button>
+                 </td>
+            </tr>  
+        </table>
+        <button class="c" onclick="backSpace()">C</button>
+       
+    </div>
+</body>
+<script src="./calc.js"></script>
+</html>
